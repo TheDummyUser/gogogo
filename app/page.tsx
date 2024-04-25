@@ -1,10 +1,9 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
   return (
-    <>
+    <div>
       <header className="flex justify-between p-5 max-w-7xl mx-auto border-b-2">
         <div>
           <p>Hello User's</p>
@@ -30,7 +29,7 @@ const page = () => {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 };
 
