@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link href="/favicon.ico" rel="icon" type="image/x-icon" />
       <body className={firaCode.className}>{children}</body>
     </html>
   );
