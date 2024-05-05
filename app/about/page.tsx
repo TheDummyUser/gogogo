@@ -21,7 +21,7 @@ const page = () => {
                     </p>
                 </div>
                 <div className='space-y-5'>
-                    <p className="lg:text-6xl text-3xl font-bold mb-4 underline underline-offset-8">Projects:</p>
+                    <p className="lg:text-6xl text-3xl font-bold mb-4 underline underline-offset-8 italic">Projects:</p>
                     <p className="text-xs">there are the few project ive done in my free time...</p>
                     <div className='space-y-5'>
                         <p className="text-base underline underline-offset-4">project 1:</p>
