@@ -9,18 +9,28 @@ const page = () => {
                 <div className='p-5 space-y-5'>
                     <p className="lg:text-6xl text-3xl font-bold mb-4 underline underline-offset-8 italic">About me:</p>
                     <p>
-                        <li>I am Abhiram, A Recent Graduate from Electrical Engineering.</li>
+                        <li>I am Abhiram, for starters i am a react native devloper... working somewhere...</li>
                     </p>
                     <p>
-                        <li>i have keen interest in Web Development & react native development.</li>
-                    </p>
-                    <p>
-                        <li>Recently i started working as an intern in react native development at a small startup...,
-                            Actully i am learing a lot from it.
-                        </li>
+                        <li>ofc, i have a keen intrest in Web Development & react native development, but a lot more intrest in backend development, there are lot of things i need to study and work on.</li>
                     </p>
                 </div>
-                <div className='space-y-5'>
+                <div className='space-y-5 p-5'>
+                    <p className="lg:text-6xl text-3xl font-bold mb-4 underline underline-offset-8 italic">Skills:</p>
+                    <div className='space-y-5'>
+                        <p className="text-base underline underline-offset-4">Web Development:</p>
+                        <p>&#8594; Html, css, javascript.</p>
+                        <p className="text-base underline underline-offset-4">Programming Languages:</p>
+                        <p>&#8594; Python, go, typescript.</p>
+                        <p className="text-base underline underline-offset-4">Frameworks:</p>
+                        <p>&#8594; Nextjs, react, react native.</p>
+                        <p className="text-base underline underline-offset-4">Databases:</p>
+                        <p>&#8594; Sql, mongodb, postgresql, nosql.</p>
+                        <p className="text-base underline underline-offset-4">Tools:</p>
+                        <p>&#8594; git, version control, postman, wireshark.</p>
+                    </div>
+                </div>
+                <div className='space-y-5 p-5'>
                     <p className="lg:text-6xl text-3xl font-bold mb-4 underline underline-offset-8 italic">Projects:</p>
                     <p className="text-xs">there are the few project ive done in my free time...</p>
                     <div className='space-y-5'>

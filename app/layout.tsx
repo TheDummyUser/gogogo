@@ -3,6 +3,7 @@ import { Inter, Fira_Code, } from "next/font/google";
 import "./globals.css";
 
 const firaCode = Fira_Code({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "g0g0g0",
