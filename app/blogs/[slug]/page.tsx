@@ -4,7 +4,13 @@ import getPostMetadata from "@/utils/getPostMetadata"
 import fs from 'fs'
 import matter from "gray-matter"
 
-function getPostContent(slug : string) {
+type Params = {
+    params: {
+        slug: string
+    }
+}
+
+function getPostContent(slug: string) {
     const folder = 'blogs/'
     const file = folder + `${slug}.md`
     const content = fs.readFileSync(file, 'utf8')
@@ -16,14 +22,14 @@ export const generateStaticParams = async () => {
     return posts.map((post) => ({ slug: post.slug }))
 }
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata({ params }: Params) {
     const id = params?.slug ? ' ⋅ ' + params?.slug : ''
     return {
         title: `The Bubbly Baker ${id.replaceAll('_', ' ')}`
     }
 }
 
-const Page = ({ params }) => {
+const Page = ({ params }: Params) => {
     const slug = params.slug
     const post = getPostContent(slug)
     
