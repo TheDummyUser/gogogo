@@ -25,7 +25,7 @@ export const generateStaticParams = async () => {
 export async function generateMetadata({ params }: Params) {
     const id = params?.slug ? ' ⋅ ' + params?.slug : ''
     return {
-        title: `The Bubbly Baker ${id.replaceAll('_', ' ')}`
+        title: `${id.replaceAll('_', ' ')}`
     }
 }
 
